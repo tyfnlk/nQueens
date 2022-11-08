@@ -104,7 +104,6 @@ class Puzzle:
             print(self.board[i]) # print each row
 
 
-
 while True:
     try: # try block to catch value error of user
         n = (input("please enter a value between 1 and 10, (0 to exit)")) #ask user for input
@@ -118,4 +117,3 @@ while True:
 
     except ValueError: # if input wrong, retry
         print('invalid entry, please try again.')  # ask user to retry if input not 0-10
-
